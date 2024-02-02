@@ -1,0 +1,50 @@
+* {
+    color: white;
+    font-family: 'Segoe UI';
+    text-align: center;
+}
+
+html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+#chercherButton {
+    border: none;
+    width: 7em;
+    height: 2.5em;
+    border-radius: 3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #1C1A1C;
+    cursor: pointer;
+    margin: 0 auto;
+}
+
+#chercherButton:hover {
+    background: #686668;
+}
+
+#textToSearch {
+    background: none;
+    border: none;
+    outline: none;
+    max-width: 190px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 9999px;
+    box-shadow: inset 2px 5px 10px rgb(5, 5, 5);
+    color: #fff;
+}
